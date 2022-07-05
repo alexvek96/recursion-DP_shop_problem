@@ -13,8 +13,11 @@ Some introductive info:
 	buy ONE model for EACH of the N products? For example:
 	
 	M=20 N=3
+	
 	K[1]=3 C[1,1]=8 C[1,2]=5 C[1,3]=9
+	
 	K[2]=2 C[2,1]=11 C[2,2]=4
+	
 	K[3]=4 C[3,1]=9 C[3,2]=5 C[3,3]=10 C[3,4]=3
 	
 	For the example above, one solution is to buy the models that cost C[1,2] = 5,
@@ -36,32 +39,52 @@ Objectives:
    these models, and so on, up to the last product K[N]. Example:
    
     $ ./shoprec 20
+    
 	3
+	
 	3 8 5 9
+	
 	2 11 4
+	
 	4 9 5 10 3
+	
 	Maximum amount spent is: 19
+	
 	$
 
 5) We can even set a .txt file as input to the code. Ths .txt file is, somehow, the price catalog of all products.
    For example:
    
     $ cat shop.txt
+    
 	10
+	
 	3 511 839 646
+	
 	8 284 552 694 690 883 474 724 46
+	
 	6 295 599 434 570 28 682
+	
 	5 757 408 106 22 529
+	
 	5 964 877 41 620 431
+	
 	7 458 428 286 93 979 331 782
+	
 	5 804 858 906 378 152
+	
 	8 163 722 883 845 750 639 252 207
+	
 	4 132 51 975 360
+	
 	3 946 790 345
+	
 	$
 	
 	$ ./shoprec 3000 < shop.txt
+	
 	Maximum amount spent is: 3000
+	
 	$
    
    
