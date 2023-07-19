@@ -1,3 +1,5 @@
+# Recursion & Dynamic Programming assignment
+
 This is a project of 1st/8 semester in NKUA IT Department (Sep 2020 - Feb 2021).
 Some introductive info:
 
@@ -26,7 +28,7 @@ Some introductive info:
 	A solution with the same total cost as the previous one is the 5-4-10 combination.
 
 	
-Objectives:
+## Objectives:
 
 1) Implement a separate .c file (shop.c) which initializes the "shop" environment.
 2) Implement 2 methods to solve the problem: (a) recursively, (b) iteratively with dynamic programming (DP).
